@@ -1,0 +1,1 @@
+iverilog -o test fallthrough_microinstructions.v microinstruction_counter.v persistence.v ram.v multiplexers.v test.v && vvp test
