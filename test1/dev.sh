@@ -1,1 +1,1 @@
-watchexec --clear --exts v -- ./start.sh
+watchexec --clear --exts v,js --on-busy-update=do-nothing -- ./start.sh
